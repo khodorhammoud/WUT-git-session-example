@@ -1,0 +1,2 @@
+awesome_function1:
+	feature1 functionality here
