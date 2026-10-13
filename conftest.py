@@ -12,6 +12,10 @@ def database_path(tmp_path: Path) -> Path:
     return tmp_path / "test-cars.db"
 
 
+
+    
+
+
 @pytest.fixture
 def client(database_path: Path) -> Iterator[TestClient]:
     # The context manager runs FastAPI's lifespan, including table creation.
