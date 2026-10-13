@@ -1,2 +1,0 @@
-awesome_function2:
-	feature2 functionality here

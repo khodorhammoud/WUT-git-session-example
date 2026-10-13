@@ -1,4 +1,0 @@
-awesome_function1:
-	feature1 functionality here
-	new line by problem branch
-	new problem line by main
