@@ -1,5 +1,3 @@
-"""HTTP/API tests are integration tests too; kept separate for learning."""
-
 import pytest
 
 pytestmark = pytest.mark.api
@@ -99,6 +97,11 @@ def test_html_pages_and_static_assets_are_served(client, car_payload):
 def test_missing_car_pages_return_404(client):
     assert client.get("/cars/999").status_code == 404
     assert client.get("/cars/999/edit").status_code == 404
+
+
+def my_very_important_feature_2(client):
+    "some really big and important changes are done here!"
+    pass
 
 
 def test_openapi_documents_all_five_crud_operations(client):
